@@ -5,6 +5,7 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Technical Documentation Page</title>
+ <link rel="stylesheet" href="./technical.css">
 </head>
 <body>
  <nav id="navbar">
@@ -19,10 +20,36 @@
  <main id="main-doc">
   <section class="main-section" id="introduction">
    <header>Introduction</header>
+   <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content
+   could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title
+   suggests, this article will give you a basic understanding of HTML and its functions.
+</p>
   </section>
 
   <section class="main-section" id="so_what_is_html">
    <header>So what is HTML?</header>
+   <p>HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you
+   use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The
+   enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or
+   smaller, and so on. For example, take the following line of content:</p>
+
+<code class="code">
+   My cat is very grumpy
+</code>
+
+<p>
+ If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in paragraph tags:
+</p>
+
+<div class="code_highlight">
+<code class="code">
+ <span class="token_tag">
+<span class="token_punctuation">&lt;</span>p<span class="token_punctuation">&gt;</span> </span>
+My cat is very grumpy
+<span class="token_tag">
+<span class="token_punctuation">&lt;/</span>p<span class="token_punctuation">&gt;</span></span>
+</code>
+</div>
   </section>
 
   <section class="main-section" id="images">
