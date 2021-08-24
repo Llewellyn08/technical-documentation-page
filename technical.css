@@ -8,13 +8,15 @@ body {
   font-family: "Lato", sans-serif;
   display: flex;
   margin: 0;
+  font-size: 18px;
+  word-spacing: 1.2px;
 }
 
 nav {
   background-color: #eee;
   border-right: 2px solid #777;
   max-width: 300px;
-  height: 100vh;
+  height: 700vh;
 }
 
 nav a {
@@ -35,7 +37,7 @@ main {
 }
 
 header {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -45,9 +47,47 @@ section {
 }
 
 .code_highlight {
-  background-color: #000;
+  background-color: #f4f4f4;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-left: 6px solid #005282;
 }
 
 .token_tag {
   color: #a30008;
+}
+
+.subheading {
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.note_card {
+  background-color: #ddeaff;
+  padding: 5px;
+  border-left: 6px solid #0072b3; /* Always specify the border width and type. Otherwise the border won't show */
+}
+
+.code_para {
+  background-color: #f4f4f4;
+}
+
+.code_highlight_wrong {
+  background-color: #fae4e5;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-left: 6px solid #ff7d7e;
+}
+
+.blue_code {
+  color: #005282;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ol li {
+  margin-bottom: 10px;
 }
